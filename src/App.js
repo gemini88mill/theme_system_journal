@@ -3,6 +3,7 @@ import './App.css';
 import BubbleList from "./molecules/bubbleList";
 import TaskName from "./atoms/taskName";
 import "bootstrap/dist/css/bootstrap.css"
+import TaskContainer from './organisms/TaskContainer';
 
 const taskName = ""
 
@@ -26,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
+        <TaskContainer></TaskContainer>
         <div className="container">
           <div className="row">
             <div className="col">
