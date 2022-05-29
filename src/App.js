@@ -28,15 +28,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <TaskContainer></TaskContainer>
-        <div className="container">
-          <div className="row">
-            <div className="col">
-              <TaskName name={taskName} nameHandler={handleName}></TaskName>
-            </div>
-            <BubbleList bubbleArr={bubbleArr} handleBubbleArr={handleBubbleArr}></BubbleList>
-            <div className="col"></div>
-          </div>
-        </div>
       </header>
     </div>
   );
